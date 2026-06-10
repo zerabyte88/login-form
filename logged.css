@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    /* CSS dasar untuk margin, padding, dan font */
+    * { 
+      margin: 0; 
+      padding: 0; 
+      box-sizing: border-box; 
+      font-family: 'Poppins', sans-serif; 
+    }
+
+    html, body { 
+      height: 100%; 
+      width: 100%; 
+      background-image: url(background.jpg);
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+    }
+
+    section { 
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      color: #fff;
+      min-height: 100vh; 
+    }
