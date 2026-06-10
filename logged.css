@@ -21,6 +21,24 @@
       display: flex; 
       justify-content: center; 
       align-items: center;
-      color: #fff;
+      color: #ffffff;
+
       min-height: 100vh; 
+    }
+
+    button { 
+      width: 100%; 
+      background: #fff; 
+      border: none; 
+      padding: 15px; 
+      cursor: pointer; 
+      font-size: 20px; 
+      color: #000; 
+      border-radius: 5px; 
+      transition: 0.3s; 
+      margin-bottom: 20px; 
+    }
+
+    button:hover { 
+      background: #ddd; 
     }
