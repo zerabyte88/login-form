@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-  /* CSS dasar untuk margin, padding, dan font */
 * { 
   margin: 0; 
   padding: 0; 
@@ -17,7 +16,7 @@ html, body {
   background-repeat: no-repeat;
 }
 
-  /* Pengaturan posisi form */
+  /* posisi form */
 section { 
   display: flex; 
   justify-content: center; 
@@ -25,7 +24,7 @@ section {
   min-height: 100vh; 
 }
 
-  /* Modifikasi ukuran box dan efek glass */
+  /* ukuran box dan efek glass */
 .form-box {
   width: 480px; 
   background: rgba(255, 255, 255, 0.05);
@@ -38,7 +37,7 @@ section {
   align-items: center;
 }
 
-  /* Pengaturan kotak tombol Continue */
+  /* kotak tombol continue */
 .form-value { 
   width: 100%; 
   display: flex; 
@@ -46,7 +45,7 @@ section {
   align-items: center; 
 }
 
-  /* Pengaturan teks Login */
+  /* teks login sama register */
 h2 { 
   text-align: center; 
   font-size: 2.5rem; 
@@ -56,7 +55,7 @@ h2 {
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); 
 }
 
-  /* Pengaturan input form */
+  /* pengaturan input form */
 .inputbox { 
   position: relative; 
   width: 100%; 
@@ -64,7 +63,7 @@ h2 {
   border-bottom: 2px solid white; 
 }
 
-  /* Pengaturan input teks */
+  /* pengaturan input teks */
 .inputbox input { 
   width: 100%; 
   height: 60px; 
@@ -76,7 +75,7 @@ h2 {
   color: #fff; 
 }
 
-  /* Animasi label saat input diisi */
+  /* animasi label saat input diisi */
 .inputbox label { 
   position: absolute; 
   top: 50%; 
@@ -95,7 +94,7 @@ h2 {
   color: #ccc; 
 }
 
-  /* Pengaturan tombol */
+  /* button */
 button { 
   width: 100%; 
   background: #fff; 
@@ -111,4 +110,17 @@ button {
 
 button:hover { 
   background: #ddd; 
+}
+
+  /* Link register sama login */
+p {
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+p a {
+  color: #03a9f4;
+  text-decoration: none;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }

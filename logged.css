@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-    /* CSS dasar untuk margin, padding, dan font */
 * { 
     margin: 0; 
     padding: 0; 
@@ -17,7 +16,7 @@ html, body {
     background-repeat: no-repeat;
 }
 
-    /* Pengaturan posisi form */
+    /* posisi form */
 section { 
     display: flex; 
     justify-content: center; 
@@ -26,7 +25,7 @@ section {
     min-height: 100vh;
 }
 
-  /* Pengaturan teks Login */
+  /* teks */
 h2 { 
     text-align: center; 
     font-size: 2.5rem; 
@@ -36,7 +35,7 @@ h2 {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); 
 }
 
-/* Pengaturan tombol */
+/* tombol */
 button { 
     width: 100%;   
     background: #fff; 
